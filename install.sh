@@ -12,6 +12,7 @@ directories=(
     "${HOME}/.config/alacritty"
 )
 
+# ディレクトリがなければ作成する
 for dir in "${directories[@]}"; do
     if [ ! -d "$dir" ]; then
         mkdir -p "$dir"
