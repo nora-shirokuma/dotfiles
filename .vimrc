@@ -24,26 +24,7 @@ highlight Normal ctermbg=none
 highlight NonText ctermbg=none
 highlight LineNr ctermbg=none
 highlight Folded ctermbg=none
-highlight EndOfBuffer ctermbg=none 
-
-" INSERTモードでEmacsKeyBindingを使用する
-" imap <silent> <C-P> <Up>
-" imap <silent> <C-N> <Down>
-" imap <silent> <C-B> <Left>
-" imap <silent> <C-F> <Right>
-" imap <silent> <C-A> <Home>
-" imap <silent> <C-E> <End>
-" imap <silent> <C-D> <Del>
-" imap <silent> <C-K> <C-O>D
-
-" コマンドモードでEmacsKeyBindingを使用する
-" cmap <C-P> <Up>
-" cmap <C-N> <Down>
-" cmap <C-B> <Left>
-" cmap <C-F> <Right>
-" cmap <C-A> <Home>
-" cmap <C-E> <End>
-" cmap <C-D> <Del>
+highlight EndOfBuffer ctermbg=none
 
 " yank clipboard
 set clipboard+=unnamed
