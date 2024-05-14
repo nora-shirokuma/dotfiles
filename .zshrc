@@ -2,11 +2,6 @@
 # 現在日時 ... %D{%Y/%m/%d %H:%M:%S}
 export PS1="[%n@%m %~]%# "
 
-# vim系をコマンドを全てneovimにする
-#alias vi="nvim"
-#alias vim="nvim"
-#alias view="nvim -R"
-
 # lsコマンドエイリアス
 alias ls="ls -aF --color=auto"
 alias ll="ls -laF --color=auto"
